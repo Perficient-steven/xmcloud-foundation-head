@@ -41,7 +41,7 @@ FEAAS.External.registerComponent(ByocPromo, {
   title: 'BYOC Promo',
   description: 'BYOC Promo',
   thumbnail:
-    'https://e7.pngegg.com/pngimages/441/672/png-clipart-sunlight-graphic-design-promo-miscellaneous-template-thumbnail.png',
+    'https://xmc-perficient5690-public2853-demoac0b.sitecorecloud.io/-/media/A08E8816A52A4104A6477B6B4ECD531C.ashx?vs=1&ts=1bdc9cb5-ed98-472b-8cae-10093ec682ce',
   group: 'BYOC Components',
   required: ['text', 'imageUrl', 'url'],
   properties: {
