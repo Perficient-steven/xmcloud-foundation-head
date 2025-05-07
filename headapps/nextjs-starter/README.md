@@ -1,5 +1,5 @@
 # Sitecore JSS Next.js Sample Application
-
+<!-- BYOC Demo -->
 <!---
 @TODO: Update to next version docs before release
 -->
