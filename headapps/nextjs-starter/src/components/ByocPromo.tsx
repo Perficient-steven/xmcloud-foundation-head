@@ -10,7 +10,7 @@ interface ByocPromoProps {
 
 export const ByocPromo = (props: ByocPromoProps): JSX.Element => {
   return (
-    <div className="component promo col-12 link-button">
+    <div className="component promo col-12">
       <div className="component-content">
         <div className="field-promoicon">
           {props.imageUrl && <img alt="Kayee" width="2000" height="1116" src={props.imageUrl} />}
@@ -41,7 +41,7 @@ FEAAS.External.registerComponent(ByocPromo, {
   title: 'BYOC Promo',
   description: 'BYOC Promo',
   thumbnail:
-    'https://xmc-perficient5690-public2853-demoac0b.sitecorecloud.io/-/media/A08E8816A52A4104A6477B6B4ECD531C.ashx?vs=1&ts=1bdc9cb5-ed98-472b-8cae-10093ec682ce',
+    'https://xmc-perficient5690-public2853-demoac0b.sitecorecloud.io/-/icon/Office/32x32/emoticon_smile.png',
   group: 'BYOC Components',
   required: ['text', 'imageUrl', 'url'],
   properties: {
